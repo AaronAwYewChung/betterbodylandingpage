@@ -17,14 +17,14 @@ input[type="reset"],
 input[type="button"] {
   display: inline-block;
   padding: 20px 60px;
-  color: black;
+  color: white;
   text-align: center;
   font-size: 14px;
   font-weight: 600;
   text-transform: uppercase;
   text-decoration: none;
   white-space: nowrap;
-  background-color: white;
+  background-color: #BF4141;
   border-radius: 4px;
   cursor: pointer;
   -webkit-box-sizing: border-box;
@@ -49,7 +49,7 @@ input[type="button"]:focus {
 
 #header {
   height: 65px;
-  background-color: #F1B6D4;
+  background-color: white;
 }
 
 .main-nav {
@@ -83,15 +83,36 @@ input[type="button"]:focus {
   display: block;
   text-decoration: none;
   padding: 15px 20px;
-  color: black;
-  text-transform: uppercase;
+  color: #BF4141;
+  font-weight: bold;
 }
 
 .main-nav .buynow {
-  background: white;
-  color: #F1B6D4;
+  color: whitesmoke;
   -webkit-box-shadow: 0 12px 10px -10px rgba(0, 0, 0, 0.2);
           box-shadow: 0 12px 10px -10px rgba(0, 0, 0, 0.2);
   margin-left: 25px;
+  border-radius: 25px;
+}
+
+#brands {
+  height: 500px;
+  background: url("https://cdn.shopify.com/s/files/1/2060/5733/files/PP-RM_BANNERS_no_CTA_1.jpg?v=1589526319") no-repeat;
+  background-size: cover;
+}
+
+.brands {
+  position: relative;
+}
+
+.brands .try {
+  position: absolute;
+  left: 160px;
+  top: 350px;
+  color: white;
+  -webkit-box-shadow: 0 12px 10px -10px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 12px 10px -10px rgba(0, 0, 0, 0.2);
+  border-radius: 25px;
+  font-size: 18px;
 }
 /*# sourceMappingURL=main.css.map */

@@ -1,6 +1,6 @@
 #header {
     height: 65px;
-    background-color: $theme;
+    background-color: white;
 }
 
 .main-nav {
@@ -29,14 +29,14 @@
         display: block;
         text-decoration: none;
         padding: 15px 20px;
-        color: black;
-        text-transform: uppercase;
+        color: $deep-chestnut;
+        font-weight: bold;
     }
 
     .buynow {
-        background: white;
-        color: $theme;
+        color: whitesmoke;
         box-shadow: 0 12px 10px -10px rgba(0, 0, 0, 0.2);
         margin-left: 25px;
+        border-radius: 25px;
     }
 }

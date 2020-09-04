@@ -1,0 +1,19 @@
+#brands {
+    height: 500px;
+    background: url("https://cdn.shopify.com/s/files/1/2060/5733/files/PP-RM_BANNERS_no_CTA_1.jpg?v=1589526319") no-repeat;
+    background-size: cover;
+}
+
+.brands {
+    position: relative;
+
+    .try {
+        position: absolute;
+        left: 160px;
+        top: 350px;
+        color: white;
+        box-shadow: 0 12px 10px -10px rgba(0, 0, 0, 0.2);
+        border-radius: 25px;
+        font-size: 18px;
+    }
+}
