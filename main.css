@@ -7,8 +7,8 @@ body {
 }
 
 .wrapper {
-  width: 100%;
-  max-width: 1100px;
+  width: 90%;
+  max-width: 1000px;
   margin: 0 auto;
 }
 
@@ -114,5 +114,18 @@ input[type="button"]:focus {
           box-shadow: 0 12px 10px -10px rgba(0, 0, 0, 0.2);
   border-radius: 25px;
   font-size: 18px;
+}
+
+#explanation {
+  text-align: center;
+}
+
+#explanation img {
+  width: 70%;
+}
+
+#explanation h1, #explanation p {
+  width: 70%;
+  margin: 20px auto;
 }
 /*# sourceMappingURL=main.css.map */

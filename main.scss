@@ -8,3 +8,18 @@
 // Layout
 @import "./source/scss/layout/_header.scss";
 @import "./source/scss/layout/_brand.scss";
+
+#explanation {
+    text-align: center;
+
+    img {
+        width: 70%;
+    }
+
+    h1, p {
+        width: 70%;
+        margin: 20px auto;
+    }
+}
+
+.explanation1 {}
