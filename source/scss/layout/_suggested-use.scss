@@ -23,6 +23,10 @@
         display: grid;
         grid-template-columns: repeat(3, 1fr);
 
+        @media only screen and (max-width: 1100px) {
+            grid-template-columns: repeat(1, 1fr);
+        }
+
         img {
             width: 150px;
             height: 150px;
@@ -30,6 +34,11 @@
     }
 
     .suggested-use {
+        @media only screen and (max-width: 1100px) {
+            width: 90%;
+            margin: 0 auto;
+        }
+
         h2 {
             font-size: 36px;
         }
@@ -42,6 +51,10 @@
     .fact {
         display: flex;
         justify-content: space-evenly;
+
+        @media only screen and (max-width: 1100px) {
+            display: block;
+        }
 
         img {
             height: 300px;

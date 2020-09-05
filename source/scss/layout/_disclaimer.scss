@@ -1,6 +1,10 @@
 #disclaimer {
     margin-top: 100px;
 
+    @media only screen and (max-width: 1100px) {
+        margin: 50px 10px 0px 10px;
+    }
+
     h1 {
         text-align: center;
     }
@@ -8,6 +12,10 @@
     p {
         color: $light-grey;
         font-size: 12px;
+
+        @media only screen and (max-width: 1100px) {
+            text-align: center;
+        }
     }
 
     .disclaimer-item {
@@ -34,6 +42,10 @@
 
         ol {
             text-align: left;
+
+            @media only screen and (max-width: 1100px) {
+                overflow: hidden;
+            }
 
             li {
                 padding: 5px;

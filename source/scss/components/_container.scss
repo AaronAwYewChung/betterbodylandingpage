@@ -23,6 +23,10 @@
         transform: scale(1.01);
         transform: translateY(3px);
     }
+
+    @media screen and (max-width: 992px) {
+        padding: 20px 0;
+    }
 }
 
 .skin, .sagging {

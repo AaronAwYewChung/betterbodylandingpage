@@ -1,19 +1,42 @@
 #brands {
-    height: 500px;
-    background: url("https://cdn.shopify.com/s/files/1/2060/5733/files/PP-RM_BANNERS_no_CTA_1.jpg?v=1589526319") no-repeat;
-    background-size: cover;
-}
+    .desktop {
+        height: 450px;
+        width: 100%;
 
-.brands {
-    position: relative;
+        @media screen and (max-width: 992px) {
+            display: none;
+        }
+    }
 
-    .try {
-        position: absolute;
-        left: 160px;
-        top: 350px;
-        color: white;
-        box-shadow: 0 12px 10px -10px rgba(0, 0, 0, 0.2);
-        border-radius: 25px;
-        font-size: 18px;
+    .mobile {
+        display: none;
+        height: 500px;
+        width: 100%;
+
+        @media screen and (max-width: 992px) {
+            display: block;
+        }
+    }
+
+    .float {
+        position: fixed;
+        width: 50px;
+        height: 50px;
+        bottom: 40px;
+        right: 40px;
+        background-color: $deep-chestnut;
+        color: #FFF;
+        border-radius: 50px;
+        text-align: center;
+        box-shadow: 2px 2px 3px #999;
+
+        @media screen and (max-width: 992px) {
+            bottom: 5%;
+            right: 5%;
+        }
+    }
+
+    .my-float {
+        margin-top: 18px;
     }
 }

@@ -9,6 +9,7 @@
 </head>
 
 <body>
+
   <section id="header">
     <div class="wrapper">
       <nav>
@@ -16,23 +17,31 @@
           <li>
             <a href="#" class="logo"><img src="./source/img/logo.svg" alt="" /></a>
           </li>
-          <li><a href="#">How It Works</a></li>
-          <li><a href="#">Ingredients</a></li>
-          <li><a href="#">Reviews</a></li>
-          <li><a href="#">FAQ</a></li>
+          <li><a href="#how_it_works">How It Works</a></li>
+          <li><a href="#ingredient">Ingredients</a></li>
+          <li><a href="#review">Reviews</a></li>
+          <li><a href="#faq">FAQ</a></li>
           <li>
             <a href="https://www.betterbodyco.cc/#smile-home" target="_blank">Claim Points</a>
           </li>
-          <li><a href="#" class="buynow button">Buy Now</a></li>
+          <li><a href="https://betterbody.co/products/radiancy" class="buynow button">Buy Now</a></li>
         </ul>
+        <div class="burger">
+          <div class="line1"></div>
+          <div class="line2"></div>
+          <div class="line3"></div>
+        </div>
       </nav>
     </div>
   </section>
   <section id="brands">
-    <div class="wrapper">
-      <div class="brands">
-      </div>
-    </div>
+    <img class="desktop"
+      src="https://cdn.shopify.com/s/files/1/2060/5733/files/PP-RM_BANNERS_no_CTA_1.jpg?v=1589526319">
+    <img class="mobile"
+      src="https://cdn.shopify.com/s/files/1/2060/5733/files/PP-RM_BANNERS_mobile_no_CTA_1.jpg?v=1589526319">
+    <a href="#header" class="float">
+      <ion-icon name="arrow-up-outline" class="my-float"></ion-icon>
+    </a>
   </section>
   <section id="why_it_caused">
     <div class="wrapper">
@@ -93,10 +102,13 @@
       </div>
 
       <div class="horizontal-content">
-        <h2>However during menopause <br>
+        <h2>During menopause <br>
           Gut health often declines as the low oestrogen levels leads to inflammation</h2>
-        <img src="https://cdn.shopify.com/s/files/1/2060/5733/t/23/assets/infographic_9_desktop.jpg?v=1587529855"
+        <img class="desktop"
+          src="https://cdn.shopify.com/s/files/1/2060/5733/t/23/assets/infographic_9_desktop.jpg?v=1587529855"
           alt="info_5" />
+        <img class="mobile" src="https://cdn.shopify.com/s/files/1/2060/5733/t/23/assets/infographic_9_mobile.jpg"
+          alt="info_5_mobile" />
         <div class="content">
           <div class="container">
             <h3>Poor Distribution of Nutrients</h3>
@@ -534,7 +546,12 @@
 
   <!-- Icon Usage Purpose. -->
   <script src="https://unpkg.com/ionicons@5.1.2/dist/ionicons.js"></script>
-  <script src="./source/js/toggle.js"></script>
+  <!-- Smooth Scroll -->
+  <script
+    src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15.0.0/dist/smooth-scroll.polyfills.min.js"></script>
+  <script src="./source/js/index.js"></script>
+
+
 </body>
 
 </html>
