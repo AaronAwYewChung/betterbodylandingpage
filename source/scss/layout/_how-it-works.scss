@@ -1,0 +1,29 @@
+#how_it_works {
+    text-align: center;
+
+    .content-3 {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    img {
+        width: 100px;
+    }
+
+    .container {
+        text-transform: none;
+    }
+
+    p {
+        word-break: break;
+        white-space: normal;
+    }
+
+    .button {
+        color: white;
+        box-shadow: 0 12px 10px -10px rgba(0, 0, 0, 0.2);
+        border-radius: 50px;
+        font-size: 14px;
+        padding: 15px 30px;
+    }
+}

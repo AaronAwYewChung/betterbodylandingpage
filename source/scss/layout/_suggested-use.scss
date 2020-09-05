@@ -1,0 +1,51 @@
+#ingredient {
+    text-align: center;
+
+    article {
+        width: 60%;
+        margin: 0 auto;
+    }
+
+    img {
+        margin-top: 30px;
+    }
+
+    p {
+        word-break: break;
+        white-space: normal;
+    }
+
+    .container {
+        text-transform: none;
+    }
+
+    .content-3 {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+
+        img {
+            width: 150px;
+            height: 150px;
+        }
+    }
+
+    .suggested-use {
+        h2 {
+            font-size: 36px;
+        }
+
+        img {
+            width: 80%;
+        }
+    }
+
+    .fact {
+        display: flex;
+        justify-content: space-evenly;
+
+        img {
+            height: 300px;
+            width: 300px;
+        }
+    }
+}

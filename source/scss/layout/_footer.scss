@@ -1,0 +1,66 @@
+#footer {
+    margin-top: 30px;
+    text-align: center;
+    background-color: $pale-pink;
+
+    img {
+        height: 100px;
+        width: 400px;
+    }
+
+    h3 {
+        margin: 0;
+        font-size: 24px;
+        color: $deep-chestnut;
+    }
+
+    h4 {
+        margin: 0;
+    }
+
+    .basic-list {
+        ul {
+            list-style: none;
+            display: flex;
+            justify-content: space-evenly;
+            margin: 0;
+            padding: 10px;
+        }
+
+        a {
+            text-decoration: none;
+            color: $deep-chestnut;
+            font-size: 16px;
+            font-weight: 100;
+
+            &:hover {
+                color: white;
+            }
+        }
+    }
+
+    .contact {
+        display: flex;
+        justify-content: space-evenly;
+
+        .customer-services {
+            p {
+                margin: 10px;
+            }
+        }
+
+        .offices {
+            display: flex;
+            justify-content: space-evenly;
+            margin: 10px;
+
+            .location {
+                padding: 0 20px;
+
+                address {
+                    padding: 1px;
+                }
+            }
+        }
+    }
+}

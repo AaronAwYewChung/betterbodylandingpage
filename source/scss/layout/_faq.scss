@@ -1,0 +1,81 @@
+#faq {
+    h1 {
+        text-align: center;
+    }
+
+    .accordion {
+        margin-top: 30px;
+    }
+
+    .accordion-item {
+        background-color: $light-pink;
+        border-radius: 5px;
+        margin-bottom: 10px;
+        padding: 10px;
+        box-shadow: 0.5rem 2px 0.5rem rgba($color: white, $alpha: 1);
+
+        &:target .answer {
+            max-height: 500px;
+        }
+
+        &:target .accordion-link .ion-show {
+            display: none;
+        }
+
+        &:target .accordion-link .ion-remove {
+            display: block;
+        }
+    }
+
+    .accordion-link {
+        font-size: 18px;
+        color: white;
+        text-decoration: none;
+        background-color: $light-pink;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 8px 0;
+
+        ion-icon {
+            color: #e7d5ff;
+            padding: 8px;
+        }
+
+        .ion-remove {
+            display: none;
+        }
+    }
+
+    .answer {
+        max-height: 0;
+        overflow: hidden;
+        position: relative;
+        background-color: $blush;
+        font-size: 16px;
+        color: whitesmoke;
+        transition: max-height 650ms;
+
+        &::before {
+            content: "";
+            position: absolute;
+            width: 3px;
+            height: 100%;
+            background-color: $deep-chestnut;
+            top: 0;
+            left: 0;
+            transfrom: translateY(-50%);
+        }
+
+        p {
+            color: whitesmoke;
+            font-size: 16px;
+            padding: 16px;
+        }
+
+        ul {
+            padding-bottom: 16px;
+        }
+    }
+}

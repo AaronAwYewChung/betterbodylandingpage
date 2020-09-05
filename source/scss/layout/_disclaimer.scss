@@ -1,0 +1,44 @@
+#disclaimer {
+    margin-top: 100px;
+
+    h1 {
+        text-align: center;
+    }
+
+    p {
+        color: $light-grey;
+        font-size: 12px;
+    }
+
+    .disclaimer-item {
+        text-align: center;
+        margin: 30px 0;
+
+        .disclaimer-button {
+            padding: 10px 30px;
+            border: 2px black solid;
+            border-radius: 20px;
+            text-decoration: none;
+            color: black;
+            font-size: 14px;
+        }
+    }
+
+    #disclaimer-references {
+        display: none;
+        margin-top: 30px;
+        border: 1px solid white;
+        border-radius: 20px;
+        background-color: rgb(225, 225, 225);
+        padding: 20px;
+
+        ol {
+            text-align: left;
+
+            li {
+                padding: 5px;
+                font-size: 14px;
+            }
+        }
+    }
+}

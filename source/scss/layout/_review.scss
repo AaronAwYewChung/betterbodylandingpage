@@ -1,0 +1,26 @@
+#review {
+    text-align: center;
+
+    .content-3 {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    p {
+        word-break: break;
+        white-space: normal;
+    }
+
+    .review-card {
+        img {
+            height: 100px;
+            width: 100px;
+            margin: 20px auto;
+        }
+
+        .testimonial {
+            text-transform: none;
+            font-size: 16px;
+        }
+    }
+}
