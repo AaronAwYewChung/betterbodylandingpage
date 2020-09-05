@@ -1,0 +1,28 @@
+.container {
+    display: inline-block;
+    margin: 20px 10px;
+    padding: 20px 60px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-decoration: none;
+    white-space: nowrap;
+    box-shadow: 10px 12px 10px -8px rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+    cursor: pointer;
+    box-sizing: border-box;
+    transition: all 0.2s ease;
+
+    &:hover,
+    &:active,
+    &:focus {
+        outline: 0;
+        transform: scale(1.01);
+        transform: translateY(3px);
+    }
+}
+
+.skin, .sagging {
+    border-top: 4px solid $blush;
+}

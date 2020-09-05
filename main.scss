@@ -4,7 +4,44 @@
 
 // Component Item
 @import "./source/scss/components/_button.scss";
+@import "./source/scss/components/_title.scss";
+@import "./source/scss/components/_container.scss";
 
 // Layout
 @import "./source/scss/layout/_header.scss";
 @import "./source/scss/layout/_brand.scss";
+
+#why_it_caused {
+    text-align: center;
+
+    img {
+        width: 100%;
+        min-height: 250px;
+    }
+}
+
+.content {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+
+    article {
+        width: 70%;
+        margin: 0 auto;
+
+        ul {
+            text-align: left;
+
+            li {
+                padding: 5px 0;
+            }
+        }
+    }
+
+    a {
+        text-decoration: none;
+        font-style: italic;
+        color: $blush;
+    }
+}
