@@ -37,6 +37,6 @@ const navSlide = () => {
 navSlide();
 
 // Smooth Scroll
-const scroll = new SmoothScroll('a[href*="#"]', {
+const scroll = new SmoothScroll('.main-nav a[href*="#"]', {
   speed: 300,
 });
