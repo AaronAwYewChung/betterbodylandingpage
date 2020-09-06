@@ -4,6 +4,7 @@ body {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   font-family: 'Roboto', sans-serif;
+  overflow-x: hidden;
 }
 
 .wrapper {
@@ -275,7 +276,7 @@ hr {
   width: 100%;
 }
 
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 520px) {
   #brands .desktop {
     display: none;
   }
@@ -287,7 +288,7 @@ hr {
   width: 100%;
 }
 
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 520px) {
   #brands .mobile {
     display: block;
   }
@@ -309,8 +310,7 @@ hr {
 
 @media screen and (max-width: 992px) {
   #brands .float {
-    bottom: 5%;
-    right: 5%;
+    display: none;
   }
 }
 
@@ -318,11 +318,11 @@ hr {
   margin-top: 18px;
 }
 
-#why_it_caused {
+#what-is-this-for {
   text-align: center;
 }
 
-#why_it_caused img {
+#what-is-this-for img {
   width: 100%;
   min-height: 250px;
 }

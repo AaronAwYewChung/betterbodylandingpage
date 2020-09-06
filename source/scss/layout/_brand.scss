@@ -3,7 +3,7 @@
         height: 450px;
         width: 100%;
 
-        @media screen and (max-width: 992px) {
+        @media screen and (max-width: 520px) {
             display: none;
         }
     }
@@ -13,7 +13,7 @@
         height: 500px;
         width: 100%;
 
-        @media screen and (max-width: 992px) {
+        @media screen and (max-width: 520px) {
             display: block;
         }
     }
@@ -31,8 +31,7 @@
         box-shadow: 2px 2px 3px #999;
 
         @media screen and (max-width: 992px) {
-            bottom: 5%;
-            right: 5%;
+            display: none;
         }
     }
 
